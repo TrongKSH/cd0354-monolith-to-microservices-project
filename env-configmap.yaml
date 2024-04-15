@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: rohan-mono-to-micro-bucket
+  AWS_PROFILE: udacity
+  AWS_REGION: eu-east-1
+  POSTGRESS_DB: postgres
+  POSTGRESS_DATABASE: postgres
+  POSTGRESS_HOST: rohan-mono-to-micro-rds.cl10cvtsuvvy.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100  
+metadata:
+  name: env-config
+  
